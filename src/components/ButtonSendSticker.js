@@ -17,7 +17,7 @@ export function ButtonSendSticker(props) {
           padding: '0 3px 0 0',
           minWidth: '50px',
           minHeight: '50px',
-          fontSize: '20px',
+          fontSize: '30px',
           marginBottom: '8px',
           lineHeight: '0',
           display: 'flex',
@@ -29,7 +29,7 @@ export function ButtonSendSticker(props) {
             filter: 'grayscale(0)',
           }
         }}
-        label="😋"
+        label="👾"
         onClick={() => setOpenState(!isOpen)}
       />
       {isOpen && (
@@ -37,10 +37,11 @@ export function ButtonSendSticker(props) {
           styleSheet={{
             display: 'flex',
             flexDirection: 'column',
-            borderRadius: '5px',
+            borderRadius: '10px',
             position: 'absolute',
             backgroundColor: appConfig.theme.colors.neutrals[800],
             width: {
+              xl: '350px',
               xs: '200px',
               sm: '290px',
             },

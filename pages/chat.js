@@ -83,10 +83,10 @@ export default function ChatPage() {
     <Box
       styleSheet={{
         display: 'flex', alignItems: 'center', justifyContent: 'center',
-        backgroundColor: appConfig.theme.colors.primary[500],
-        backgroundImage: `url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)`,
+        backgroundColor: appConfig.theme.colors.neutrals['000'],
+        backgroundImage: `url(https://cdn.pixabay.com/photo/2020/08/14/17/13/light-bulbs-5488573_960_720.jpg)`,
         backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
-        color: appConfig.theme.colors.neutrals['000']
+        color: appConfig.theme.colors.neutrals['100']
       }}
     >
       <Box
@@ -95,10 +95,10 @@ export default function ChatPage() {
           flexDirection: 'column',
           flex: 1,
           boxShadow: '0 2px 10px 0 rgb(0 0 0 / 20%)',
-          borderRadius: '5px',
+          borderRadius: '10px',
           backgroundColor: appConfig.theme.colors.neutrals[700],
-          height: '100%',
-          maxWidth: '95%',
+          height: '90%',
+          maxWidth: '80%',
           maxHeight: '95vh',
           padding: '32px',
         }}
